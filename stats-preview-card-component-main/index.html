@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .container {
+      display: grid;
+      place-items: center;
+      align-items: center;
+      background-color: hsl(233, 47%, 7%);
+      -webkit-font-smoothing: antialiased;
+      padding: 100px;
+    }
+    mark {
+  background-color:  rgb(40, 40, 66);
+  color: black;
+}
+    
+    .card {
+      background-color: hsl(244, 47%, 7%);
+      accent-color: hsl(277, 64%, 61%);
+      width: 780px;
+      height: 450px;
+      padding: 1px;
+      display: grid; 
+      font-family: 'Outfit', sans-serif;
+      grid-template-columns: 3fr 3fr 3fr;
+      
+    }
+    .card h1 {
+    font-size: 15px;
+    font-weight: 400, 700;
+    text-align: center;
+  }
+  
+  .paragraph {
+    float:left;
+    font-size: 15px;
+  }
+
+  .card main {
+    background-color: hsla(0, 0%, 100%, 0.75);
+  }
+
+  .card .img {
+    float: right;
+    width: 350px;
+  }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="container">
+      <div class="card">
+        <image class ="img" src="C:\Users\pajib\Downloads\stats-preview-card-component-main\stats-preview-card-component-main\images\image-header-desktop.jpg"alt="people working."><br>
+          
+          <div class="paragraph">
+         <h1 style="color:white">Get <mark>insights</mark> that help your business grow.<br></h1>
+         Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+         experience, and overall efficiency. <br>
+         <h2 style="color:white">10k+ <mark>companies</mark> 314 <mark>templates</mark><br> 12m+ <mark>queries</mark></h2><br>
+        </div>
+
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</div>
+</section>
+</main>
+</body>
+</html>
